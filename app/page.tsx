@@ -4,6 +4,7 @@ import { navItems } from "@/lib/data";
 import Hero from "@/components/Hero"; 
 import AboutUs from "@/components/AboutUs";
 import { CardsGrid } from "@/components/Cards";
+import ContactUs from "@/components/ContactUs";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <AboutUs />
         <CardsGrid />
+        <ContactUs />
       </div>
     </main>
   );
