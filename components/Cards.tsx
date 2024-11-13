@@ -4,7 +4,7 @@ import { LayoutGrid } from "./ui/LayoutGrid";
 
 export function CardsGrid() {
   return (
-    <div id="cards" className="h-[175vh] py-20 w-full">
+    <div id="cards" className="h-[150vh] py-20 w-full">
       <LayoutGrid cards={cards} />
     </div>
   );
@@ -132,12 +132,5 @@ const cards = [
     className: "col-span-1",
     thumbnail:
       "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 10,
-    content: <SkeletonTwo />,
-    className: "col-span-1",
-    thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   }
 ];
