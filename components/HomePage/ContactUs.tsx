@@ -22,7 +22,7 @@ const ContactUs = () => {
 
   return (
     <div id="contactus" className="w-full mx-auto mb-20 rounded-xl drop-shadow-lg py-12 px-24 bg-yellow-100 text-gray-700">
-      <h2 className="text-2xl font-bold text-center mb-4">Contact Us</h2>
+      <h2 className="text-xl md:text-3xl text-center font-bold text-yellow-400 py-4 drop-shadow-sm">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-4 w-full mt-6">
         {/* Container for form fields */}
         <div className="lg:flex lg:justify-around lg:space-x-32">

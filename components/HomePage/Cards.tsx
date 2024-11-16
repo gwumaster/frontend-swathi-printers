@@ -4,7 +4,10 @@ import { LayoutGrid } from "../ui/LayoutGrid";
 
 export function CardsGrid() {
   return (
-    <div id="cards" className="h-[150vh] py-20 w-full">
+    <div id="cards" className="h-[150vh] pt-20 pb-40 w-full">
+      <div className="rounded-lg drop-shadow-lg bg-yellow-100">
+        <h2 className="text-xl md:text-3xl text-center font-bold text-yellow-400 py-5 my-2 drop-shadow-sm">Our work</h2>
+      </div>
       <LayoutGrid cards={cards} />
     </div>
   );
