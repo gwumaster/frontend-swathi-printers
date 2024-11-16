@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { motion } from "framer-motion";
-import { LampContainer } from './ui/Lamp';
+import { LampContainer } from '../ui/Lamp';
 
 const Hero = () => {
   return (
