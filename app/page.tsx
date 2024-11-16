@@ -13,15 +13,15 @@ export default function Home() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <main className="relative flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10">
-      <div className="max-w-7xl w-full relative z-10">
-        <FloatingNav navItems={isLoggedIn ? userNavItems : homeNavItems} />
+    <main className="relative flex justify-center items-center flex-col overflow-clip mx-auto">
+      <FloatingNav navItems={isLoggedIn ? userNavItems : homeNavItems} />
+      <div className="max-w-7xl w-full relative z-10 sm:px-10">
         <Hero />
         <AboutUs />
         <CardsGrid />
         <ContactUs />
-        <Footer />
       </div>
+      <Footer />
     </main>
   );
 }
