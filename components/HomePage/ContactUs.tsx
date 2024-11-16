@@ -1,6 +1,4 @@
 "use client";
-
-
 import React, { useState } from 'react';
 
 const ContactUs = () => {
@@ -23,7 +21,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="contactus" className="w-full mx-auto mb-20 rounded-md drop-shadow-lg py-12 px-24 bg-yellow-100 text-gray-700">
+    <div id="contactus" className="w-full mx-auto mb-20 rounded-xl drop-shadow-lg py-12 px-24 bg-yellow-100 text-gray-700">
       <h2 className="text-2xl font-bold text-center mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-4 w-full mt-6">
         {/* Container for form fields */}

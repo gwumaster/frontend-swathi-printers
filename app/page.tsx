@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { homeNavItems, userNavItems } from "@/lib/data";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 import Hero from "@/components/HomePage/Hero";
 import AboutUs from "@/components/HomePage/AboutUs";
 import { CardsGrid } from "@/components/HomePage/Cards";
 import ContactUs from "@/components/HomePage/ContactUs";
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import { homeNavItems, userNavItems } from "@/lib/data";
+import Footer from "@/components/HomePage/Footer";
 
 export default function Home() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <main className="relative flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10">
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutUs />
         <CardsGrid />
         <ContactUs />
+        <Footer />
       </div>
     </main>
   );
